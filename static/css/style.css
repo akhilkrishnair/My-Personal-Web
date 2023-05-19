@@ -36,7 +36,7 @@ header{
 }
 
 header .my-name{
-    margin-left: 50px;
+    margin-left: 17%;
 
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -72,9 +72,10 @@ header .my-name{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 90%;
 }
 .links a{
-    margin: 4px 12px;
+    margin: 4px 21px;
 
 
 }
@@ -163,5 +164,44 @@ header .my-name{
     margin-right: 27%;
     position: relative;
     background-color: rgb(7, 76, 80);
+
+}
+
+
+/* bio and skills section end */
+
+/* project section starts */
+
+.project-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top:45px;
+    padding: 0 2%;
+}
+
+.project-details{
+    width: 40%;
+    margin: 15px 0;
+    border: solid 1px white;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: rgb(7, 76, 80);
+    transition: 1s;
+}
+.project-details h3{
+    margin-bottom: 8px;
+}
+
+.project-header{
+    text-align: center;
+    margin-top: 150px;
+    text-decoration: dashed;
+}
+
+.project-details:hover{
+    transition: 1s;
+    transform: scale(1.1,1.1);
+    box-shadow: 10px 10px rgba(3, 3, 3,.7);
 
 }
