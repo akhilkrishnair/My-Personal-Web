@@ -20,3 +20,15 @@ main_content.addEventListener("mouseover",function(event){
 });
 
 
+// navmenu function starts
+
+let navicon = document.getElementsByClassName("nav-icon")[0];
+let navmenu = document.getElementsByClassName("nav-menu")[0];
+let links = document.getElementsByClassName("links")[0];
+
+navicon.addEventListener("click",function(){
+    navmenu.classList.toggle("nav-show")
+    links.classList.toggle("links-hide")
+})
+
+

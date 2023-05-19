@@ -17,6 +17,7 @@ body{
 
 
 }
+
 .container{
     background-color: rgba(8, 125, 131, 0.4);
     height: 1500px;
@@ -33,6 +34,10 @@ header{
     border-bottom: solid 1px white;
     background-color: rgb(10, 75, 79);
     padding-left: 14px;
+}
+
+.nav-icon{
+    display: none;
 }
 
 header .my-name{

@@ -1,0 +1,83 @@
+/* tab view starts*/
+
+@media(max-width:956px){
+    header .my-name{
+        margin-left: 7%;
+        font-size: x-large;
+    }
+    .nav-menu a{
+        margin-right: 20px;
+        font-size: x-small;
+    }
+
+}
+
+
+/* tab view end */
+
+
+/* mobile view starts */
+
+
+@media (max-width:765px){
+  
+    .container{
+        height: 2500px;
+    }
+    header{
+        height: 50px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    header .my-name{
+        font-size: larger;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        width: 80%;
+    }
+    .skills-container{
+        width: 47%;
+        height: 200px;
+        margin-left: 9%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        transition: 1s;
+    }
+    .bio-container{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+        float: right;
+        margin-right: 4%;
+    }
+    .project-section{
+        flex-direction: column;
+    }
+    .project-details{
+        width: 98%;
+        margin: auto;
+        margin-bottom: 8px;
+    }
+    .nav-show{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        top: 60px;
+        background-color: rgb(10, 75, 79);
+        height: 100vh;
+    }
+    .nav-menu a{
+        text-align: center;
+        margin-top: 16px;
+        width: 20%;
+    }
+    .links-hide{
+        display: none;
+    }
+    
+}
