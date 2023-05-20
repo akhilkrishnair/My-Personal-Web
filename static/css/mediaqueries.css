@@ -31,22 +31,28 @@
 
 
 @media (max-width:765px){
+    body{
+        width: 100%;
+        background-position: 3% 3%;
+    }
   
     .container{
         height: 2500px;
+        width: 100%;
     }
     header{
         height: 50px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
     }
     .nav-menu{
-        /* display: none; */
         position: absolute;
+        width: 100%;
         top: 52px;
         right: 0%;
-        transform: translateX(100%);
-        transition: 0.5s ease-in-out;
+        transform: translateX(-150%);
+        transition: transform 0.5s ease;
     }
     header .my-name{
         font-size: larger;
@@ -68,9 +74,8 @@
     }
     .nav-icon{
         display: block;
-        position: absolute;
-        right: 8px;
-        margin-right: 4%;
+        position: relative;
+        right: 12px;
     }
     .project-section{
         flex-direction: column;
@@ -86,7 +91,6 @@
         /* display: block; */
         width: 100%;
         top: 52px;
-        left: 0;
         background-color: rgb(10, 75, 79);
         height: 100vh;
         transform: translateX(0%);
