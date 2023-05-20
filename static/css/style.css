@@ -8,7 +8,7 @@
 
 
 body{
-    background: url('/static/images/size adjusted.png') no-repeat fixed;
+    background: url('./static/images/size adjusted.png') no-repeat fixed;
     /* background-position-x:  right ; */
     background-position: 95% 60px;
     /* height: 1600px; */
