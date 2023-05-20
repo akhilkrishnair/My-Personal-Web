@@ -20,7 +20,7 @@ body{
 
 .container{
     background-color: rgba(8, 125, 131, 0.4);
-    height: 1500px;
+    height: 1650px;
 }
 
 header{
@@ -207,6 +207,6 @@ header .my-name{
 .project-details:hover{
     transition: 1s;
     transform: scale(1.1,1.1);
-    box-shadow: 10px 10px rgba(3, 3, 3,.7);
+    box-shadow: 10px 10px 5px rgba(3, 3, 3,.7);
 
 }
