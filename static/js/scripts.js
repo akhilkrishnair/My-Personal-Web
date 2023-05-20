@@ -28,7 +28,7 @@ let links = document.getElementsByClassName("links")[0];
 
 navicon.addEventListener("click",function(){
     navmenu.classList.toggle("nav-show")
-    links.classList.toggle("links-hide")
+    // links.classList.toggle("links-hide")
 })
 
 
